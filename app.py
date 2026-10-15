@@ -12,7 +12,7 @@ st.dataframe(df.describe())
 
 df.columns= [c.lower().replace(' ', '_') for c in df.columns]
 
-fig, ax = plt.subplot()
+fig, ax = plt.subplots()
 ax.boxplot(df['pases_completos'])
 st.header("diagrama de caja y bigote\n de pases completos")
 st.pyplot(fig)
