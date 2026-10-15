@@ -4,7 +4,7 @@ import os
 import matplotlib.pyplot as plt
 
 
-df = pd.read_excel(r"C:\Users\Alumnado\Downloads\cccc\streamlit\YARDAS_PASOS_DATOS_TICS.xlsx", index_col=0)
+df = pd.read_excel(r"YARDAS_PASOS_DATOS_TICS.xlsx", index_col=0)
 st.dataframe(df.head())
 
 st.header("estadistica descriptiva")
