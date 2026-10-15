@@ -10,7 +10,7 @@ st.dataframe(df.head())
 st.header("estadistica descriptiva")
 st.dataframe(df.describe())
 
-df.colums= [c.lower().replace(' ', '_')for e in df.columns]
+df.columns= [c.lower().replace('', '_')for e in df.columns]
 
 fig, ax = plt.subplot()
 ax.boxplot(df['pases_completos'])
