@@ -17,7 +17,7 @@ ax.boxplot(df['pases_completos'])
 st.header("diagrama de caja y bigote\n de pases completos")
 st.pyplot(fig)
 
-fig, ax = plt.subplot()
+fig, ax = plt.subplots()
 ax.boxplot(df['yardas_totales'])
 st.header("diagrama de caja bigote\n de yardas totales")
 st.pyplot(fig)
